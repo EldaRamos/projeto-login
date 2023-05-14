@@ -41,3 +41,65 @@ main {
     display: block;
     padding: 10px;
 }
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+p {
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+form label {
+   width: 90%;
+   font-size: 0.8em;
+   font-weight: bold;
+}
+.campo {
+    border: 1px solid black;
+    margin: 10px 0px;
+    width: 90%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type=email], input[type=password]{
+    border: none;
+}
+i {
+    font-size: 0.5em;
+}
+.material-icons {
+    font-size: 1em;
+}
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    height: 30px;
+    background-color: #ef9f3e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+input[type=submit]:hover {
+    background-color: #fcbc6f;
+}
+.esqueci {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 90%;
+    height: 30px;
+    color: #ef9f3e;
+}
